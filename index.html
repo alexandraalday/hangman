@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/d/d6/Hangman-6.png">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+
+<header>
+		<h1>Hangman</h1>
+		<h3>Um...let's play hangman or something?</h3>
+	</header>
+
+<div class="container"> <!-- begin main section -->
+
+		<div class="col col-md-6" id="left">
+
+			<!-- remaining guesses section -->
+			<div class="guess-counter">
+				<p>Guesses Remaining:</p> <h2 id="guesses">7</h2>
+			</div>
+
+			<!-- letter placeholders section -->
+			<div class="hidden-word">
+			</div>
+
+			<!-- letter buttons section -->
+			<div class="letter-buttons" id="buttons">
+				<button class="btn" id="A">A</button>
+				<button class="btn" id="B">B</button>
+				<button class="btn" id="C">C</button>
+				<button class="btn" id="D">D</button>
+				<button class="btn" id="E">E</button>
+				<button class="btn" id="F">F</button>
+				<button class="btn" id="G">G</button>
+				<button class="btn" id="H">H</button>
+				<button class="btn" id="I">I</button>
+				<button class="btn" id="J">J</button>
+				<button class="btn" id="K">K</button>
+				<button class="btn" id="L">L</button>
+				<button class="btn" id="M">M</button>
+				<button class="btn" id="N">N</button>
+				<button class="btn" id="O">O</button>
+				<button class="btn" id="P">P</button>
+				<button class="btn" id="Q">Q</button>
+				<button class="btn" id="R">R</button>
+				<button class="btn" id="S">S</button>
+				<button class="btn" id="T">T</button>
+				<button class="btn" id="U">U</button>
+				<button class="btn" id="V">V</button>
+				<button class="btn" id="W">W</button>
+				<button class="btn" id="X">X</button>
+				<button class="btn" id="Y">Y</button>
+				<button class="btn" id="Z">Z</button>
+			</div>
+		</div>
+
+
+		<div class="col col-md-6" id="right">
+		<!-- hangman section -->
+			<div class="hangman"></div>
+		
+
+		</div> <!-- end right column -->
+	</div> <!-- end main section -->
+	
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
